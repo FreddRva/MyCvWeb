@@ -146,7 +146,7 @@ export default function ContactSection() {
                 <p className="flex items-start gap-4">
                   <span className="text-primary mt-1"><FiLinkedin className="w-5 h-5" /></span>
                   <span>
-                    <strong>LinkedIn:</strong> linkedin.com/in/tuperfil<br />
+                    <strong>LinkedIn:</strong> www.linkedin.com/in/fredy-ruiz-valencia-859102331<br />
                     Conectemos profesionalmente
                   </span>
                 </p>
@@ -154,7 +154,7 @@ export default function ContactSection() {
                 <p className="flex items-start gap-4">
                   <span className="text-primary mt-1"><FiGithub className="w-5 h-5" /></span>
                   <span>
-                    <strong>GitHub:</strong> github.com/tuusuario<br />
+                    <strong>GitHub:</strong>#<br />
                     Mira mis proyectos open-source
                   </span>
                 </p>

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
-import { Mail, Code2, Download, ArrowDownCircle } from 'lucide-react'
+import { Mail, Code2, ArrowDownCircle } from 'lucide-react'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
@@ -160,7 +160,7 @@ export default function HeroSection() {
         </motion.p>
 
         {/* Botones CTA animados */}
-        <div className="flex flex-wrap gap-4 justify-center mb-10">
+        <div className="flex flex-wrap justify-center gap-4 mb-12">
           <motion.a
             whileHover={{ scale: 1.08, boxShadow: '0 4px 32px #6366F1' }}
             whileTap={{ scale: 0.97 }}
@@ -177,16 +177,6 @@ export default function HeroSection() {
             className="flex items-center gap-2 px-6 py-3 border border-primary text-primary rounded-lg font-semibold shadow-lg hover:bg-blue-500/10 transition-all duration-200"
           >
             <Code2 size={20} /> Ver Habilidades
-          </motion.a>
-
-          <motion.a
-            whileHover={{ scale: 1.08, boxShadow: '0 4px 32px #EC4899' }}
-            whileTap={{ scale: 0.97 }}
-            href="/fredy-cv.pdf"
-            download
-            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#6366F1] to-[#EC4899] text-white rounded-lg font-semibold shadow-lg hover:opacity-80 transition-all duration-200"
-          >
-            <Download size={20} /> Descargar CV
           </motion.a>
         </div>
 
