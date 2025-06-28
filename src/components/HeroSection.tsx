@@ -109,7 +109,7 @@ export default function HeroSection() {
             />
           </motion.div>
           <Image
-            src="/I.jpg"
+            src="/fredy.jpg"
             alt="Avatar de Fredy"
             width={160}
             height={160}
