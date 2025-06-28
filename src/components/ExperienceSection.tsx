@@ -6,35 +6,35 @@ const experiences = [
   {
     title: "Desarrollador FullStack Senior",
     company: "Tech Innovators Corp",
-    period: "2023 - Presente",
+    period: "2024 - Presente",
     description: "Lideré la migración a Next.js 14 con Server Actions, reduciendo el TTI en un 40%. Implementé microservicios en Go con gRPC para el procesamiento de pagos.",
     stack: ["Next.js", "Go", "gRPC", "Kubernetes"]
   },
   {
     title: "Arquitecto de Software",
     company: "Digital Solutions SA",
-    period: "2021 - 2023",
+    period: "2023 - 2024",
     description: "Diseñé una arquitectura basada en eventos con Rust + NATS.js. Optimicé consultas SQL logrando 300ms → 25ms en percentil 99.",
     stack: ["Rust", "PostgreSQL", "NATS", "GraphQL"]
   },
   {
     title: "Desarrollador Frontend",
     company: "Web Creators LLC",
-    period: "2019 - 2021",
+    period: "2022 - 2023",
     description: "Implementé un sistema de diseño con TailwindCSS + Storybook, acelerando el desarrollo de features en un 60%.",
     stack: ["React", "TypeScript", "TailwindCSS", "Storybook"]
   },
   {
     title: "Desarrollador Backend PHP",
     company: "Soluciones Web MX",
-    period: "2017 - 2019",
+    period: "2021 - 2022",
     description: "Desarrollé APIs REST y sistemas de reservas usando PHP, XAMPP y MySQL. Automatización de reportes y migración de datos legacy.",
     stack: ["PHP", "XAMPP", "MySQL", "REST"]
   },
   {
     title: "Ingeniero de Datos Python",
     company: "Data Insights Group",
-    period: "2015 - 2017",
+    period: "2020 - 2021",
     description: "Construí pipelines de ETL y modelos de predicción con Python y scikit-learn. Integración de FastAPI para exponer modelos como microservicios.",
     stack: ["Python", "FastAPI", "scikit-learn", "ETL"]
   }
